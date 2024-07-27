@@ -1,4 +1,185 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "A2SHB" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 11.684 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "A2SHB_0_1"
+      (polyline
+        (pts
+          (xy -4.445 -1.143)
+          (xy -2.032 -1.143)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.032 1.143)
+          (xy -2.032 -1.143)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -0.635)
+          (xy -1.651 -1.143)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.254)
+          (xy -1.651 -0.254)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.889)
+          (xy 0 0.889)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 1.143)
+          (xy -1.651 0.635)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.016 0)
+          (xy -1.651 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.921)
+          (xy 0 -4.318)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -1.397)
+          (xy 0.889 -1.397)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.889)
+          (xy 0 1.397)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.032)
+          (xy 0 3.175)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
+          (xy 0 4.318)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.889 0)
+          (xy 0.889 -1.397)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -0.889)
+          (xy 0 -0.889)
+          (xy 0 -2.921)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.889 0.381)
+          (xy 0.889 1.397)
+          (xy 0 1.397)
+          (xy 0 2.032)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.889 0)
+          (xy 1.27 0)
+          (xy 0.889 0.381)
+          (xy 0.508 0)
+          (xy 0.889 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -0.889)
+          (xy 0 0)
+          (xy -0.635 0)
+          (xy -0.635 0.381)
+          (xy -1.016 0)
+          (xy -0.635 -0.381)
+          (xy -0.635 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle (center 0 0) (radius 4.2673)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "A2SHB_1_1"
+      (pin input line (at -6.731 -1.143 0) (length 2.54)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line (at 0 -6.858 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 0 6.858 270) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "HY2213-BB3A" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 3.81 10.16 0)
       (effects (font (size 1.27 1.27)))
@@ -16,6 +197,9 @@
       (rectangle (start -8.89 8.89) (end 8.89 -8.89)
         (stroke (width 0) (type default))
         (fill (type none))
+      )
+      (text "HY2213-BB3A" (at -10.16 10.16 0)
+        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "HY2213-BB3A_1_1"
